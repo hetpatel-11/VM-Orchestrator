@@ -32,9 +32,9 @@ class OnePromptOrchestrator:
         print("🚀 Initializing One Prompt VM Orchestrator...")
         
         # Initialize all 3 VMs with correct project IDs from your scripts
-        self.vm1 = Computer(project_id="computer-2zaexgo", api_key=self.api_key)   # Research VM
-        self.vm2 = Computer(project_id="computer-d3ozyee", api_key=self.api_key)  # Processing VM
-        self.vm3 = Computer(project_id="computer-vp558ku", api_key=self.api_key)   # Presentation VM
+        self.vm1 = Computer(project_id="yourcomputerid", api_key=self.api_key)   # Research VM
+        self.vm2 = Computer(project_id="yourcomputerid", api_key=self.api_key)  # Processing VM
+        self.vm3 = Computer(project_id="yourcomputerid", api_key=self.api_key)   # Presentation VM
         
         print("✅ All 3 VMs connected and ready!")
         
