@@ -28,9 +28,9 @@ class UltraOptimizedOrchestrator:
         print("🚀 Initializing ULTRA-OPTIMIZED Orchestrator...")
         
         # Initialize VMs but don't start tasks yet
-        self.vm1 = Computer(project_id="computer-ykl00rx", api_key=self.api_key)   
-        self.vm2 = Computer(project_id="computer-aspt7cz", api_key=self.api_key)  
-        self.vm3 = Computer(project_id="computer-62gnt6i", api_key=self.api_key)   
+        self.vm1 = Computer(project_id="yourcomputerid", api_key=self.api_key)   
+        self.vm2 = Computer(project_id="yourcomputerid", api_key=self.api_key)  
+        self.vm3 = Computer(project_id="yourcomputerid", api_key=self.api_key)   
         
         print("✅ All VMs ready for ULTRA-FAST execution!")
         
