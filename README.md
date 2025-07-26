@@ -5,9 +5,10 @@
 [![Orgo AI](https://img.shields.io/badge/Powered%20by-Orgo%20AI-purple.svg)](https://orgo.ai)
 
 > 🚀 **Revolutionary AI-powered VM orchestration system with shared memory architecture for intelligent task delegation across multiple virtual machines.**
-Demo https://youtu.be/EUirl0rJe5k
+
 
 ## 🌟 Overview
+Demo https://youtu.be/EUirl0rJe5k
 
 VM-Orchestrator is a groundbreaking distributed computing system that intelligently delegates complex tasks across multiple virtual machines with real-time data sharing and seamless interconnection. Built on the Orgo AI platform with Claude integration, it represents the future of collaborative AI computing.
 
