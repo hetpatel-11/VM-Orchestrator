@@ -8,7 +8,7 @@ load_dotenv()
 class ResearchVM:
     def __init__(self):
         self.api_key = os.getenv('ORGO_API_KEY')
-        self.computer = Computer(project_id="computer-nvuvnf7", api_key=self.api_key)
+        self.computer = Computer(project_id="yourcomputerid", api_key=self.api_key)
         print("🔍 Research VM (VM1) initialized!")
     
     def research_task(self, topic, depth="comprehensive"):
