@@ -27,9 +27,9 @@ class VisibleInterconnectedOrchestrator:
         print("🔗 Initializing VISIBLE INTERCONNECTED Orchestrator...")
         
         # Initialize all 3 VMs
-        self.vm1 = Computer(project_id="computer-ykl00rx", api_key=self.api_key)   # Research VM
-        self.vm2 = Computer(project_id="computer-aspt7cz", api_key=self.api_key)   # Processing VM
-        self.vm3 = Computer(project_id="computer-62gnt6i", api_key=self.api_key)   # Presentation VM
+        self.vm1 = Computer(project_id="yourcomputerid", api_key=self.api_key)   # Research VM
+        self.vm2 = Computer(project_id="yourcomputerid", api_key=self.api_key)   # Processing VM
+        self.vm3 = Computer(project_id="yourcomputerid", api_key=self.api_key)   # Presentation VM
         
         print("✅ All 3 VMs connected for VISIBLE INTERCONNECTION!")
         
