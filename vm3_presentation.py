@@ -8,7 +8,7 @@ load_dotenv()
 class PresentationVM:
     def __init__(self):
         self.api_key = os.getenv('ORGO_API_KEY')
-        self.computer = Computer(project_id="computer-2zaexgo", api_key=self.api_key)
+        self.computer = Computer(project_id="yourcomputerid", api_key=self.api_key)
         print("📊 Presentation VM (VM3) initialized!")
     
     def create_presentation(self, topic, style="professional"):
