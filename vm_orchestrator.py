@@ -12,9 +12,9 @@ class VMOrchestrator:
         self.api_key = os.getenv('ORGO_API_KEY')
         
         # Initialize all VMs
-        self.vm1 = Computer(project_id="computer-nvuvnf7", api_key=self.api_key)  # Research VM
-        self.vm2 = Computer(project_id="computer-pum2j64p", api_key=self.api_key)  # Processing VM
-        self.vm3 = Computer(project_id="computer-2zaexgo", api_key=self.api_key)  # Presentation VM
+        self.vm1 = Computer(project_id="yourcomputerid", api_key=self.api_key)  # Research VM
+        self.vm2 = Computer(project_id="yourcomputerid", api_key=self.api_key)  # Processing VM
+        self.vm3 = Computer(project_id="yourcomputerid", api_key=self.api_key)  # Presentation VM
         
         print("🚀 All VMs initialized successfully!")
         
