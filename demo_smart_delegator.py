@@ -12,7 +12,7 @@ class DemoSmartDelegator:
         
         # For demo: using one working VM to show the concept
         print("🚀 Initializing Demo Smart Task Delegation System...")
-        self.computer = Computer(project_id="computer-pum2j64p", api_key=self.api_key)
+        self.computer = Computer(project_id="yourcomputerid", api_key=self.api_key)
         print("✅ VM ready for intelligent task delegation!")
     
     def analyze_and_delegate_task(self, user_prompt):
