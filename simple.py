@@ -12,7 +12,7 @@ print(f"ANTHROPIC_API_KEY: {'Set' if os.getenv('ANTHROPIC_API_KEY') else 'Not se
 
 # Initialize a computer
 print("Initializing Orgo Computer...")
-computer = Computer(project_id="computer-pum2j64p", api_key=os.getenv('ORGO_API_KEY', 'your_orgo_api_key_here'))
+computer = Computer(project_id="yourcomputerid", api_key=os.getenv('ORGO_API_KEY', 'your_orgo_api_key_here'))
 print("Orgo Computer initialized successfully!")
 
 # Let Claude control the computer with natural language
