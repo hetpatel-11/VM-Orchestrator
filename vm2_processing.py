@@ -8,7 +8,7 @@ load_dotenv()
 class ProcessingVM:
     def __init__(self):
         self.api_key = os.getenv('ORGO_API_KEY')
-        self.computer = Computer(project_id="computer-pum2j64p", api_key=self.api_key)
+        self.computer = Computer(project_id="=yourcomputerid", api_key=self.api_key)
         print("⚙️ Processing VM (VM2) initialized!")
     
     def data_analysis_task(self, topic):
