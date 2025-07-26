@@ -13,9 +13,9 @@ class MasterVMController:
         
         # Initialize all 3 VMs simultaneously
         print("🚀 Initializing all VMs...")
-        self.vm1 = Computer(project_id="computer-pum2j64p", api_key=self.api_key)  # Research & Analysis VM
-        self.vm2 = Computer(project_id="computer-2zaexgo", api_key=self.api_key)   # Processing & Data VM  
-        self.vm3 = Computer(project_id="computer-d3ozyee", api_key=self.api_key)   # Presentation & Output VM
+        self.vm1 = Computer(project_id="yourcomputerid", api_key=self.api_key)  # Research & Analysis VM
+        self.vm2 = Computer(project_id="yourcomputerid", api_key=self.api_key)   # Processing & Data VM  
+        self.vm3 = Computer(project_id="yourcomputerid", api_key=self.api_key)   # Presentation & Output VM
         
         print("✅ All 3 VMs connected and ready!")
         
