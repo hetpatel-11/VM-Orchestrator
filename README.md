@@ -8,7 +8,6 @@
 
 
 ## 🌟 Overview
-Demo https://youtu.be/EUirl0rJe5k
 
 VM-Orchestrator is a groundbreaking distributed computing system that intelligently delegates complex tasks across multiple virtual machines with real-time data sharing and seamless interconnection. Built on the Orgo AI platform with Claude integration, it represents the future of collaborative AI computing.
 
